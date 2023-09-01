@@ -188,7 +188,7 @@ i{
 /** Sección Ayuda  */
 .contenedor-ayuda{
     width: 100%;
-    height: 80vh;
+    height: 70vh;
     display: flex;
     justify-content: center;
     align-items: flex-start;
@@ -196,7 +196,7 @@ i{
 
 .contenedor-perros{
     width: 100%;
-    height: 70%;
+    height: 100%;
     display: flex;
     justify-content: space-around;
     align-items: center;
@@ -228,4 +228,37 @@ i{
     background: url(img/adopcion.jpeg);
     background-position: center;
     background-size: cover;
+}
+
+/*? Mision / Vision */
+.contenedor-mision{
+    width: 100%;
+    height: 30vh;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.mision{
+    width: 50%;
+    height: 100%;
+    background: var(--background-secundario);
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.vision{
+    width: 50%;
+    height: 100%;
+    background: var(--background-principal);
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.vision h1{
+    color: var(--background-secundario);
 }
