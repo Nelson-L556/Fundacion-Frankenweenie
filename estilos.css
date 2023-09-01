@@ -1,8 +1,11 @@
 :root{
+    /*? Color Background */
     --background-principal: #34e89e;
     --background-secundario: #284f77;
-    --color-titulo-principal: #0BCBB5;
     --color-titulo-secundario: #5a12ab;
+    /*? Color Titulo  */
+    --color-titulo-principal: #0BCBB5;
+    --color-subtitulo: #284f77;
 }
 
 /** Estilos Generales */
@@ -23,7 +26,6 @@ a{
     display: flex;
     justify-content: flex-start;
     align-items: flex-start;
-    background: ;
 }
 
 .h-80{
@@ -34,6 +36,12 @@ a{
     font-size: 40px;
     padding: 20px 40px;
     color: var(--color-titulo-principal);
+}
+
+.subtitulo{
+    font-size: 25px;
+    padding: 20px 40px;
+    color: var(--color-subtitulo);
 }
 
 .titulo-resaltar{
@@ -175,4 +183,49 @@ i{
 .item{
     font-size: 20px;
     color: #fff;
+}
+
+/** Sección Ayuda  */
+.contenedor-ayuda{
+    width: 100%;
+    height: 80vh;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.contenedor-perros{
+    width: 100%;
+    height: 70%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background: #f6f7f9;
+}
+
+.contenedor-perros-img, .perro{
+    width: 350px;
+    height: 200px;
+    background-position: center;
+    background-size: cover;
+    margin: 0 auto;
+}
+
+.perro{
+    background: url(img/header.jpg);
+    background-position: center;
+    background-size: cover;
+}
+
+.ayudar{
+    background: url(img/ayudar.png);
+    background-position: center;
+    background-size: cover;
+}
+
+
+.adoptar{
+    background: url(img/adopcion.jpeg);
+    background-position: center;
+    background-size: cover;
 }
