@@ -377,3 +377,43 @@ legend{
     padding: 10px;
     resize: none;
 }
+
+/** Footer  */
+.footer{
+    width: 100%;
+    height: 100px;
+    background: #1e1e1e;
+}
+
+.footer-iconos{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.footer-item{
+    color: #fff;
+    font-size: 35px;
+    margin-top: 20px;
+    transition: all .5s;
+}
+
+.fa:hover{
+    transform: scale(1.3);
+    color: #17A9FD;
+}
+
+.inst:hover{
+    transform: scale(1.3);
+    color: #5B51D8;
+}
+
+.tww:hover{
+    transform: scale(1.3);
+    color: #1DA1F2;
+}
+
+.you:hover{
+    transform: scale(1.3);
+    color: #FF0000;
+}
