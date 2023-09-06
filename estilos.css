@@ -2,11 +2,12 @@
     /*? Color Background */
     --background-principal: #34e89e;
     --background-secundario: #284f77;
-    --color-titulo-secundario: #5a12ab;
+    --background-terceario: #5a12ab;
     --background-claro: #f4f4f4;
     /*? Color Titulo  */
     --color-titulo-principal: #0BCBB5;
     --color-subtitulo: #284f77;
+    --color-titulo-secundario: #5a12ab;
 }
 
 /** Estilos Generales */
@@ -109,6 +110,28 @@ a{
 .btn:hover{
     background: var(--background-principal);
     color: #fff;
+    scale: 1.1;
+}
+
+.btn-oscuro{
+    width: 200px;
+    height: 50px;
+    background: var(--color-titulo-secundario);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+    color: #fff;
+    font-size: 20px;
+    font-weight: 600;
+    transition: all .5s;
+}
+
+.btn-oscuro:hover{
+    border: 3px solid var(--background-terceario);
+    background: transparent;
+    color: var(--color-titulo-secundario);
+    transform: scale(1.1);
 }
 
 /** Menú de Navegación  */
@@ -517,4 +540,117 @@ legend{
     background-size: cover;
     background-position: center;
     
+}
+
+/*? Valores  */
+.valores{
+    background: url(img/valores.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+}
+
+/*? Problemas que nos enfrentamos */
+.problemas-contenedor{
+    width: 100%;
+    height: 70vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 30px 0;
+}
+
+.problemas-texto{
+    width: 50%;
+    height: 70vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.problemas-img{
+    width: 600px;
+    height: 600px;
+    background: url(img/problemas.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    border-radius: 50%;
+}
+
+.icono-problema{
+    font-size: 30px;
+    margin-right: 10px;
+    color: var(--background-principal);
+}
+
+.lista-problema{
+    margin-bottom: 20px;
+}
+
+/*? Contenedor Separador */
+.contenedor-separador{
+    width: 100%;
+    height: 60vh;
+    background: url(img/staff.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+/*? Que es lo que hacemos  */
+.hacemos-img{
+    width: 600px;
+    height: 600px;
+    background: url(img/hacemos.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    border-radius: 50%;
+    margin-right: 20px;
+}
+
+.icono-hacemos{
+    font-size: 30px;
+    margin-right: 10px;
+    color: var(--color-subtitulo);
+}
+
+/** Ayudar  */
+.ayudar-contenedor{
+    width: 100%;
+    height: 50vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: var(--color-subtitulo);
+}
+
+.ayudar-texto{
+    width: 40%;
+}
+
+.ayudar-texto .subtitulo{
+    color: #fff;
+    font-size: 25px;
+}
+
+.ayudar-img{
+    width: 30%;
+    height: 100%;
+    background: url(img/ayudar02.jpg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+    padding: 20px;
+}
+
+.ayudar-botones{
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
 }
