@@ -721,6 +721,7 @@ legend{
 }
 
 .adopcion{
+    margin-top: 50px;
     width: 100%;
     height: 100vh;
     display: flex;
@@ -740,6 +741,7 @@ legend{
     align-items: center;
     margin-top: 30px;
     box-shadow: 0 0 20px 1px #000;
+    border-radius: 20px;
 }
 
 .img-perro{
@@ -747,6 +749,7 @@ legend{
     height: 35%;
     cursor:pointer;
     transition: all .5s;
+    border-radius: 20px 20px 0 0;
 }
 
 .adopcion-texto{
@@ -783,4 +786,68 @@ legend{
     background: #797878;
     color: #fff;
     transform: scale(1.2);
+}
+
+/*? DONACIONES  */
+.donaciones-header{
+    width: 100%;
+    height: 50vh;
+    background: url(img/donativo-transformed.png), var(--background-secundario);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.donaciones-header .titulo{
+    margin-right: 120px;
+}
+
+.donacion-contenedor{
+    width: 100%;
+    height: 70vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.texto-donar{
+    width: 30%;
+    height: 50vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.formas-donar{
+    width: 70%;
+    height: 400px;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    gap: 30px;
+}
+
+.card-donar{
+    width: 25%;
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    margin-right: 50px;
+    background: var(--background-secundario);
+    border-radius: 20px;
+    box-shadow: 0 0 30px 1px #000;
+}
+
+.card-donar .subtitulo{
+    color: #fff;
+}
+
+.img-donar{
+    width: 180px;
+    height: 180px;
 }
