@@ -891,6 +891,65 @@ legend{
 }
 
 /*? MEDIA QUERYS  */
+/*! LAPTOS  */
+/** Nosotros  */
+@media (max-width: 1600px) {
+    .nosotros-header .titulo{
+        font-size: 5rem;
+        white-space: nowrap;
+        text-shadow: 1px 1px 10px #000,
+                     5px 5px 15px #000,
+                     0 0 20px #000;
+    }
+
+    .contenedor-historia{
+        width: 100%;
+        height: 100%;
+    }
+
+    .historia-texto .titulo{
+        width: 100%;
+        text-align: center;
+        font-size: 1.8rem;
+        padding: 1rem 0;
+    }
+
+    .historia-texto .fs-20{
+        font-size: 1.1rem;
+        padding: .5 1.5rem;
+    }
+
+    /** Problemas  */
+    .problemas-contenedor{
+        width: 100%;
+        height: 100vh;
+    }
+
+    .problemas.texto{
+        width: 50%;
+        height: 100%;
+    }
+
+    .problemas-texto .titulo{
+        width: 100%;
+        text-align: center;
+        font-size: 2.2rem;
+        padding: 1.5rem 2rem;
+        white-space: nowrap;
+    }
+
+    .problemas-texto .fs-20{
+        font-size: 1.1rem;
+        padding: 1rem 1.2rem;
+    }
+
+    .problemas-img{
+        width: 50%;
+    }
+
+}
+
+/*! NOSOTROS  */
 /*! Tableta */
 @media (max-width: 768px){
     /** HEADER  */
@@ -915,18 +974,122 @@ legend{
     .historia-texto .titulo{
         white-space: nowrap;
         font-size: 1.8rem;
-        padding: 10px 0;
+        padding: 0.5rem 0;
     }
 
+    /** PROBLEMAS */
+    .problemas-contenedor{
+        width: 100%;
+        height: 100vh;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: center;
+    }
+
+    .problemas-texto{
+        width: 100%;
+        height: 60%;
+    }
+
+    .problemas-img{
+        width: 90%;
+        height: 40%;
+        border-radius: 0;
+        margin: 2rem 0;
+        box-shadow: 0 0 10px 1px #000;
+    }
+
+    .problemas-texto .titulo{
+        width: 100%;
+        font-size: 1.7rem;
+        padding: 0.7rem;
+        margin: 0.5rem;
+        white-space: nowrap;
+        text-align: center;
+    }
+
+    .problemas-contenedor .fs-20{
+        padding: 1rem;
+        margin: 0;
+        font-size: 1rem;
+    }
+
+    .problemas-contenedor i{
+        font-size: 1.6rem;
+    }
+
+    /** HACEMOS */
+    .hacemos-img{
+        width: 90%;
+        height: 40%;
+        border-radius: 0;
+        margin: 2rem 0;
+        box-shadow: 0 0 10px 1px #000;
+    }
+
+    /** AYUDAR  */
+    .ayudar-contenedor{
+        width: 100%;
+        height: 40vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .ayudar-texto{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        height: 100%;
+        font-size: 1rem;
+        flex-basis: 2;
+        width: 50%;
+    }
+
+    .ayudar-texto .subtitulo{
+        font-size: 1.1rem;
+        margin: 1rem;
+        padding: 0 0 0 2rem;
+    }
+
+    .ayudar-texto .titulo{
+        font-size: 1.7rem;
+        padding: 0;
+        margin: 0 1rem 0 0;
+        text-align: center;
+    }
+
+    .ayudar-img{
+        width: 25%;
+        height: 100%;
+        padding: 4rem;
+        margin: 1rem;
+    }
+
+    .ayudar-botones{
+        width: 25%;
+        margin-right: 2rem;
+    }
+
+    .btn{
+        width: 100%;
+    }
+
+    .btn-oscuro{
+        width: 100%;
+    }
 }
 
+/*! NOSOTROS  */
 @media (max-width: 550px){
     /** MENU */
     .menu-item{
-        font-size: 0.9rem;
+        font-size: 0.7rem;
         text-align: center;
         white-space: nowrap;
-        margin-right: 10px;
+        margin-right: 0.5rem;
     }
 
     /** NOSOTROS  */
@@ -936,108 +1099,151 @@ legend{
 
     /** Contenedor Historia  */
     .contenedor-historia{
-        height: 50vh;
+        height: 55vh;
     }
 
     .historia-texto{
         width: 80%;
+        height: 100%;
     }
 
     .historia-texto .titulo{
         font-size: 1.4rem;
         text-align: center;
-        padding: 5px;
-        margin: 5px;
+        padding: 0.4rem;
+        margin: 0.4rem;
     }
-
 
     .historia-texto .fs-20{
         max-height: 100%;
         font-size: 0.9rem;
-        padding: 5px 20px;
+        padding: 0.3rem 1.3rem;
     }
+
+    .historia-img, .staff-img, .valores-img{
+        height: 55vh;
+    }
+
+
 
     /** PROBLEMAS */
     .problemas-contenedor{
-        height: 120vh;
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: center;
+        gap: 1rem;
+    }
+
+    .problemas-texto{
+        width: 100%;
+        height: 100%;
     }
 
     .enfrentamos .titulo{
         width: 100%;
-        font-size: 1.5rem;
+        height: 100%;
+        font-size: 1.2rem;
         text-align: center;
-        white-space: nowrap;
+        white-space: wrap;
+        padding: 0 1.5rem;
+        margin: 0.5rem;
     }
 
     .problemas-texto .texto-oscuro{
         font-size: 1rem;
-        padding: 5px;
+        padding: 0.3rem 1rem;
     }
 
     .problemas-texto i{
-        font-size: 1.2rem;
-        padding: 5px;
+        font-size: 1.4rem;
+        padding: 0.3rem;
     }
 
     .problemas-img{
-        width: 50%;
-        height: 50%;
-        box-shadow: 0 0 10px 1px #000;
+        width: 0;
+        height: 0;
+        border-radius: 0;
+        background-size: cover;
+        background-position: center;
     }
 
     /** QUE ES LO QUE HACEMOS  */
     .hacemos .titulo{
         width: 100%;
-        font-size: 1.5rem;
+        font-size: 1.2rem;
         text-align: center;
+        padding: 0 1rem;
+        margin: 0.5rem;
     }
 
     .hacemos-img{
-        width: 50%;
-        height: 50%;
-        box-shadow: 0 0 10px 1px #000;
+        width: 0;
+        height: 0;
+        border-radius: 0;
+        margin: 0;
     }
 
     .ayudar-contenedor{
         width: 100%;
         height: 70vh;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
     }
 
     .ayudar-texto{
-        width: 40%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        height: 40%;
     }
 
     .ayudar-texto .subtitulo{
-        font-size: 1.2rem;
+        width: 100%;
+        font-size: 1.1rem;
+        padding: 1.3rem 0 0 1.3rem;
     }
 
     .ayudar-texto h2{
-        padding-left: 20px;
+        width: 100%;
+        padding: 0 1.3rem;
     }
 
     .ayudar-img{
-        width: 30%;
-        height: 100%;
+        width: 100%;
+        height: 30%;
     }
 
     .ayudar-botones{
-        width: 30%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        height: 30%;
+        margin-bottom: 1rem;
     }
 
     .ayudar-botones a{
         width: 70%;
-        margin-left: 20px;
+        margin: 1.1rem;
     }
+
 
     /**Footer  */
     .footer{
+        width: 100%;
         height: 40%;
     }
 
     .footer-iconos p{
-        width: 100%;
-        font-size: 1.2rem;
-        padding: 20px 30px;
+        width: 80%;
+        font-size: 1rem;
+        padding: 1.2rem 1.8rem;
     }
 
     .footer-item{
