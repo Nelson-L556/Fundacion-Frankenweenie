@@ -1695,20 +1695,28 @@ legend{
     }
 
     .footer .fs-20{
-        width: 50%;
+        width: 35%;
         font-size: 1rem;
         padding: 1rem 0 1rem 1rem;
+        margin: 0;
     }
 
     .footer-iconos{
         width: 100%;
         display: flex;
-        justify-content: center;
+        justify-content: space-between;
         align-items: center;
     }
 
     .footer i{
         margin: 1rem;
+    }
+
+    .footer .footer-item{
+        width: 100%;
+        font-size: 2rem;
+        margin: 0;
+        padding: 0;
     }
 }
 
@@ -1960,7 +1968,7 @@ legend{
 
     .diferencia .titulo{
         width: 100%;
-        font-size: 1.5rem;
+        font-size: 1.3rem;
         padding: 1rem 1.5rem;
     }
 
@@ -2026,6 +2034,11 @@ legend{
         resize: none;
     }
 
+    .form .btn{
+        width: 90%;
+        margin: 1rem;
+    }
+
     /*! PANTALLA - NOSOTROS  */
     /** MENU */
     .menu-item{
@@ -2037,7 +2050,7 @@ legend{
 
     /** NOSOTROS  */
     .nosotros-header .titulo{
-        font-size: 2.5rem;
+        font-size: 2rem;
     }
 
     /** Contenedor Historia  */
@@ -2279,24 +2292,113 @@ legend{
         margin: 0;
     }
 
+    /** DONACIONES  */
+    .donaciones-header{
+        width: 100%;
+        height: 50vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-position: left;
+    }
+
+    .donaciones-header .titulo{
+        width: 100%;
+        text-align: center;
+        font-size: 1.3rem;
+        position: relative;
+        left: 2rem;
+        position: relative;
+        left: -3rem;
+        top: 2rem;
+        margin-left: 1rem;
+    }
+
+    .donacion-contenedor{
+        width: 100%;
+        height: 50%;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: center;
+    }
+
+    .texto-donar{
+        text-align: center;
+        width: 100%;
+        height: 50%;
+    }
+
+    .donacion-contenedor .titulo{
+        font-size: 2rem;
+        padding:1rem 1.5rem;
+        white-space: wrap;
+    }
+
+    .formas-donar{
+        width: 100%;
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: center;
+        margin-bottom: 2rem;
+    }
+
+    .card-donar{
+        width: 70%;
+        height: 50%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin: 0;
+        padding: 0;
+    }
+
+    .card-donar .subtitulo{
+        text-align: center;
+    }
+
     /**Footer  */
     .footer{
         width: 100%;
         height: 20%;
         display: flex;
-        justify-content: flex-start;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .footer-iconos{
+        width: 100%;
+        display: flex;
+        justify-content: space-evenly;
         align-items: center;
     }
 
     .footer-iconos p{
-        width: 80%;
+        width: 100%;
         font-size: 1rem;
-        padding: 1.2rem 1.8rem;
+        padding: 1.2rem 1rem;
+    }
+
+    .footer .fs-20{
+        width: 50%;
+        font-size: 1rem;
+        padding: 0;
+        margin: 0;
     }
 
     .footer-item{
-        width: 20%;
-        margin: 1rem;
-        font-size: 1.5rem;
-    }    
+        width: 100%;
+        margin: 0;
+        font-size: 1rem;
+        padding: 0;
+    }
+
+    .footer .footer-item{
+        width: 100%;
+        margin: 0;
+        padding: 0;
+    }
 }
