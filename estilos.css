@@ -2063,6 +2063,7 @@ legend{
         width: 100%;
         font-size: 1.3rem;
         padding: 1rem 1.5rem;
+        white-space: wrap;
     }
 
     .diferencia .fs-20{
@@ -2144,6 +2145,8 @@ legend{
     /** NOSOTROS  */
     .nosotros-header .titulo{
         font-size: 2rem;
+        padding: 0;
+        margin: 0;
     }
 
     /** Contenedor Historia  */
